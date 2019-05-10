@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.alibaba.fastjson.JSON;
+import com.eid.coding.dev.util.FuncUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.taotao.common.pojo.EUDataGridResult;
@@ -91,18 +92,26 @@ public class ItemServiceImpl implements ItemService {
 		Long itemId = IDUtils.genItemId();
 		item.setId(itemId);
 		// '商品状态，1-正常，2-下架，3-删除',
-		item.setStatus((byte) 1);
-		item.setCreated(new Date());
-		item.setUpdated(new Date());
-		itemMapper.insert(item);
-		TaotaoResult result = insertItemDesc(itemId, desc);
-		if (result.getStatus() != 200) {
-			throw new Exception();
+		try{
+			item.setStatus((byte) 1);
+			item.setCreated(new Date());
+			item.setUpdated(new Date());
+			if(FuncUtil.isNull(item.getCid())){
+				return TaotaoResult.build(400, "插入失败cidnull");
+			}
+			int result1=itemMapper.insert(item);
+			TaotaoResult result2= insertItemDesc(itemId, desc);
+			if (result2.getStatus() != 200) {
+				return TaotaoResult.build(400, "insertItemDesc插入失败");
+			}
+			result2 = insertItemParamItem(itemId, itemParam);
+			if (result2.getStatus() != 200) {
+				return TaotaoResult.build(400, "insertItemParamItem插入失败");
+			}
+		}catch(Exception e){
+			return TaotaoResult.build(400, "插入失败");
 		}
-		result = insertItemParamItem(itemId, itemParam);
-		if (result.getStatus() != 200) {
-			throw new Exception();
-		}
+		
 		return TaotaoResult.ok();
 	}
 	/**

@@ -25,6 +25,11 @@
     <!--   <param-value>/usr/local/jboss/jboss-as-7.1.1.Final-offset-400/standalone/log</param-value> -->
      <param-value>D:/taotao/logs</param-value>
     </init-param>
+      <init-param>
+      <param-name>resourceDir</param-name>
+    <!--   <param-value>/usr/local/jboss/jboss-as-7.1.1.Final-offset-400/standalone/log</param-value> -->
+     <param-value>D:/resource</param-value>
+    </init-param>
     <init-param>
       <param-name>taotaoVersion</param-name>
       <param-value>1_0_0_0</param-value>

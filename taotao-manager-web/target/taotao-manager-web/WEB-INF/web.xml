@@ -23,7 +23,12 @@
     <init-param>
       <param-name>taotaoLogRootDir</param-name>
     <!--   <param-value>/usr/local/jboss/jboss-as-7.1.1.Final-offset-400/standalone/log</param-value> -->
-     <param-value>D:/apache-tomcat-7.0.88/logs</param-value>
+     <param-value>D:/taotao/logs</param-value>
+    </init-param>
+      <init-param>
+      <param-name>resourceDir</param-name>
+    <!--   <param-value>/usr/local/jboss/jboss-as-7.1.1.Final-offset-400/standalone/log</param-value> -->
+     <param-value>D:/resource</param-value>
     </init-param>
     <init-param>
       <param-name>taotaoVersion</param-name>
