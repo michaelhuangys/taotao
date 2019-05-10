@@ -11,9 +11,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.alibaba.fastjson.JSON;
-import com.eid.coding.dev.util.FuncUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.github.pagehelper.StringUtil;
 import com.taotao.common.pojo.EUDataGridResult;
 import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.common.utils.IDUtils;
@@ -96,8 +96,8 @@ public class ItemServiceImpl implements ItemService {
 			item.setStatus((byte) 1);
 			item.setCreated(new Date());
 			item.setUpdated(new Date());
-			if(FuncUtil.isNull(item.getCid())){
-				return TaotaoResult.build(400, "插入失败cidnull");
+			if(item.getCid()==null){
+				return TaotaoResult.build(400, "请选择类目");
 			}
 			int result1=itemMapper.insert(item);
 			TaotaoResult result2= insertItemDesc(itemId, desc);

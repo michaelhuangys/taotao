@@ -2,11 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="299c8991-ea91-4d00-9550-2e58b88e41c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-common/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-common/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-common/target/classes/META-INF/maven/com.taotao/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-common/target/classes/META-INF/maven/com.taotao/taotao-common/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/target/classes/META-INF/maven/com.taotao/taotao-common/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-common/target/taotao-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/target/taotao-common.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/.settings/org.eclipse.wst.common.component" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/META-INF/maven/com.taotao/taotao-manager-mapper/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/META-INF/maven/com.taotao/taotao-manager-mapper/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbContentCategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbContentCategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbContentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbContentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemCatMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemCatMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemDescMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemDescMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemParamItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemParamItemMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemParamMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemParamMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbOrderItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbOrderItemMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbOrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbOrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbOrderShippingMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbOrderShippingMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/TbUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/taotao-manager-mapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/taotao-manager-mapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/.settings/org.eclipse.wst.common.component" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/META-INF/maven/com.taotao/taotao-manager-pojo/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/META-INF/maven/com.taotao/taotao-manager-pojo/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentCategoryExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentCategoryExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentCategoryExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentCategoryExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentCategoryExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentCategoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentCategoryExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentCategoryExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemCat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemCatExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemCatExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemCatExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemCatExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemCatExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemCatExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemCatExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemCatExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemDesc.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemDesc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemDescExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemDescExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemDescExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemDescExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemDescExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemDescExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemDescExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemDescExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamItemExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamItemExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamItemExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamItemExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamItemExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamItemExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamItemExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamItemExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderItemExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderItemExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderItemExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderItemExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderItemExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderItemExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderItemExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderItemExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderShipping.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderShipping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderShippingExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderShippingExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderShippingExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderShippingExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderShippingExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderShippingExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderShippingExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderShippingExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbUserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbUserExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbUserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbUserExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbUserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbUserExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbUserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/classes/com/taotao/pojo/TbUserExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-pojo/target/taotao-manager-pojo.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-pojo/target/taotao-manager-pojo.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-service/src/main/java/com/taotao/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-service/src/main/java/com/taotao/service/impl/ItemServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-manager-service/target/classes/META-INF/maven/com.taotao/taotao-manager-service/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-service/target/classes/META-INF/maven/com.taotao/taotao-manager-service/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-order/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-order/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-order/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-order/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-web/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-web/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-web/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-web/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/jsp/item-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/jsp/item-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-mapper-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-mapper-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-pojo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-pojo-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-web/target/tomcat/logs/access_log.2019-05-10" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-web/target/tomcat/logs/access_log.2019-05-10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web.war" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +117,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/taotao-manager-service/src/main/java/com/taotao/service/impl/ContentCategoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="304">
+              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -45,7 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -53,96 +147,11 @@
               <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
               <item name="taotao" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,19 +182,27 @@
       <updated>1557450890254</updated>
       <workItem from="1557450892131" duration="45000" />
       <workItem from="1557451956032" duration="598000" />
+      <workItem from="1557476425554" duration="790000" />
     </task>
+    <task id="LOCAL-00001" summary="22222222">
+      <created>1557476526503</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557476526503</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="643000" />
+    <option name="totallyTimeSpent" value="1433000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -196,6 +213,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -204,11 +222,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="22222222" />
+    <option name="LAST_COMMIT_MESSAGE" value="22222222" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/taotao-manager-service/src/main/java/com/taotao/service/impl/ContentCategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="304">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
         </state>
       </provider>
     </entry>
