@@ -1,6 +1,7 @@
 package com.taotao.search.controller;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,6 +20,7 @@ import com.taotao.search.service.SearchService;
 @Controller
 public class SearchController {
 
+	private Logger logger=Logger.getLogger(SearchController.class);
 	@Autowired
 	private SearchService searchService;
 	
@@ -32,6 +34,7 @@ public class SearchController {
 			return TaotaoResult.build(400, "查询条件不能为空");
 		}
 		SearchResult searchResult = null;
+		logger.debug("[debug]: queryString "+queryString);
 		try {
 			queryString = new String(queryString.getBytes("iso8859-1"), "utf-8");
 			searchResult = searchService.search(queryString, page, rows);

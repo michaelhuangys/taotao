@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="299c8991-ea91-4d00-9550-2e58b88e41c2" name="Default Changelist" comment="" />
+    <list default="true" id="299c8991-ea91-4d00-9550-2e58b88e41c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager-web/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-web/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager-web/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-web/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-rest/taotao.log" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-rest/taotao.log" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/taotao-manager-service/src/main/java/com/taotao/service/impl/ContentCategoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            <state relative-caret-position="-532">
+              <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -39,6 +43,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -46,46 +51,10 @@
               <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
               <item name="taotao" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -118,6 +87,7 @@
       <workItem from="1557451956032" duration="598000" />
       <workItem from="1557476425554" duration="1143000" />
       <workItem from="1557737829505" duration="215000" />
+      <workItem from="1557824187960" duration="1073000" />
     </task>
     <task id="LOCAL-00001" summary="22222222">
       <created>1557476526503</created>
@@ -147,11 +117,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557737960158</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1557824287310</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557824287310</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <created>1557881729805</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557881729805</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2001000" />
+    <option name="totallyTimeSpent" value="3074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -180,9 +164,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="22222222" />
-    <MESSAGE value="update" />
     <MESSAGE value="update s" />
-    <option name="LAST_COMMIT_MESSAGE" value="update s" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/taotao-rest/src/main/resources/resource/resource.properties">
@@ -190,8 +174,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taotao-manager-service/src/main/java/com/taotao/service/impl/ContentCategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        <state relative-caret-position="-532">
+          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
         </state>
       </provider>
     </entry>

@@ -71,6 +71,7 @@
 <script type="text/javascript" src="/js/search_main.js"></script>
 <script type="text/javascript">
 //${paginator.totalPages}
+console.log("${query}")
 SEARCH.query = "${query}";
 SEARCH.bottom_page_html(${page},${totalPages},'');
 </script>

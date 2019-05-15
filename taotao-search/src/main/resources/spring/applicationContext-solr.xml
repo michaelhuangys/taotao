@@ -10,13 +10,13 @@
 
 	<!-- 配置SolrServer对象 -->
 	<!-- 单机版 -->
-	 <bean id="httpSolrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer">
+<!-- 	 <bean id="httpSolrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer">
 		<constructor-arg name="baseURL" value="${solr.addr1}"></constructor-arg>
-	</bean> 
+	</bean>  -->
 	<!-- 集群版 -->
 		<context:property-placeholder location="file:D:/resource/*.properties" />
-	<!-- <bean id="cloudSolrServer" class="org.apache.solr.client.solrj.impl.CloudSolrServer">
-		<constructor-arg name="zkHost" value="${solr.addr1}"></constructor-arg>
+	 <bean id="cloudSolrServer" class="org.apache.solr.client.solrj.impl.CloudSolrServer">
+		<constructor-arg name="zkHost" value="${solr-cloud}"></constructor-arg>
 		<property name="defaultCollection" value="collection2"></property>
-	</bean> -->
+	</bean> 
 </beans>
