@@ -3,6 +3,7 @@ package com.taotao.portal.service.impl;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +19,7 @@ import com.taotao.portal.service.SearchService;
 @Service
 public class SearchServiceImpl implements SearchService {
 
+	private Logger logger=Logger.getLogger(SearchServiceImpl.class);
 	@Value("${SEARCH_BASE_URL}")
 	private String SEARCH_BASE_URL;
 	
@@ -30,6 +32,7 @@ public class SearchServiceImpl implements SearchService {
 		param.put("page", page + "");
 		try {
 			//调用服务
+			logger.debug(SEARCH_BASE_URL+" SEARCH_BASE_URL");
 			String json = HttpClientUtil.doGet(SEARCH_BASE_URL, param);
 			//把字符串转换成java对象
 			TaotaoResult taotaoResult = TaotaoResult.formatToPojo(json, SearchResult.class);

@@ -7,16 +7,16 @@
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
 	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
-
+	<context:property-placeholder location="file:D:/resource/*.properties" />
 	<!-- 配置SolrServer对象 -->
 	<!-- 单机版 -->
-<!-- 	 <bean id="httpSolrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer">
+ 	 <bean id="httpSolrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer">
 		<constructor-arg name="baseURL" value="${solr.addr1}"></constructor-arg>
-	</bean>  -->
-	<!-- 集群版 -->
-		<context:property-placeholder location="file:D:/resource/*.properties" />
+	</bean>  
+	 <!-- 集群版 -->
+	 <!--
 	 <bean id="cloudSolrServer" class="org.apache.solr.client.solrj.impl.CloudSolrServer">
 		<constructor-arg name="zkHost" value="${solr-cloud}"></constructor-arg>
 		<property name="defaultCollection" value="collection2"></property>
-	</bean> 
+	</bean>  -->
 </beans>
