@@ -60,10 +60,10 @@
         			$("#itemeEditForm").form("load",data);
         			// 加载商品描述
         			$.getJSON('/item/query/desc/'+data.id,function(_data){
-            			console.log("success "+ JSON.stringify(_data))
+            		//	console.log("success "+ JSON.stringify(_data))
         				if(_data.status == 200){
         					//UM.getEditor('itemeEditDescEditor').setContent(_data.data.itemDesc, false);
-        					console.log(_data+" data");
+        					//console.log(_data+" data");
         					itemEditEditor.html(_data.itemDesc);
         				}
         			});

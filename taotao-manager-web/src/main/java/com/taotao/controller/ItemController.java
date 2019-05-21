@@ -1,6 +1,7 @@
 package com.taotao.controller;
 
 
+import org.aiav.eidcommon.FuncUtil;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -47,6 +48,9 @@ public class ItemController {
 	@RequestMapping(value="/item/save", method=RequestMethod.POST)
 	@ResponseBody
 	private TaotaoResult createItem(TbItem item, String desc, String itemParams) throws Exception {
+		if(FuncUtil.isEmpty(desc)){
+			System.out.println("none des");
+		}
 		TaotaoResult result = itemService.createItem(item, desc, itemParams);
 		return result;
 	}

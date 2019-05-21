@@ -73,11 +73,26 @@
 				<configuration>
 					<port>8082</port>
 					<path>/</path>
-					<url>http://192.168.25.137:8080/manager/text</url>
+					<url>http://localhost:8080/manager/text</url>
 					<username>tomcat</username>
 					<password>tomcat</password>
 				</configuration>
 			</plugin>
+			
+			  <plugin>
+	            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-compiler-plugin</artifactId>
+	            <configuration>
+	                <source>1.7</source>
+	                <target>1.7</target>
+	                <encoding>UTF-8</encoding>
+	                <compilerArguments>
+	                   <extdirs>${project.basedir}/src/main/webapp/WEB-INF/lib</extdirs>
+	                </compilerArguments>
+	            </configuration>
+	        </plugin>
 		</plugins>
 	</build>
+	
+	
 </project>

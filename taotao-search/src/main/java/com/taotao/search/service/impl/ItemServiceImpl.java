@@ -1,14 +1,12 @@
 package com.taotao.search.service.impl;
 
-import java.io.IOException;
 import java.util.List;
-
 import org.apache.solr.client.solrj.SolrServer;
-import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.common.SolrInputDocument;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.fasterxml.jackson.databind.jsonFormatVisitors.JsonAnyFormatVisitor;
 import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.common.utils.ExceptionUtil;
 import com.taotao.search.mapper.ItemMapper;
@@ -32,7 +30,7 @@ public class ItemServiceImpl implements ItemService {
 			List<Item> list = itemMapper.getItemList();
 			//把商品信息写入索引库
 			for (Item item : list) {
-				//创建一个SolrInputDocument对象
+	         // System.out.println(item.getTitle()+" "+item.getId());
 				SolrInputDocument document = new SolrInputDocument();
 				document.setField("id", item.getId());
 				document.setField("item_title", item.getTitle());

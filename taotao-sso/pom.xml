@@ -45,7 +45,6 @@
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jsp-api</artifactId>
-			<scope>provided</scope>
 		</dependency>
 		<!-- Redis客户端 -->
 		<dependency>
@@ -62,7 +61,7 @@
 				<configuration>
 					<port>8084</port>
 					<path>/</path>
-					<url>http://192.168.25.136:8082/manager/text</url>
+					<url>http://localhost:8082/manager/text</url>
 					<username>tomcat</username>
 					<password>tomcat</password>
 				</configuration>
