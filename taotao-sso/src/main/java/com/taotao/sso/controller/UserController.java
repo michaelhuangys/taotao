@@ -1,5 +1,7 @@
 package com.taotao.sso.controller;
 
+import java.io.IOException;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -17,6 +19,7 @@ import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.common.utils.ExceptionUtil;
 import com.taotao.pojo.TbUser;
 import com.taotao.sso.service.UserService;
+import com.taotao.sso.service.impl.UserServiceImpl;
 
 /**
  * 用户Controller
@@ -24,6 +27,7 @@ import com.taotao.sso.service.UserService;
 @Controller
 @RequestMapping("/user")
 public class UserController {
+
 
 	@Autowired
 	private UserService userService;
@@ -120,5 +124,15 @@ public class UserController {
 			return mappingJacksonValue;
 		}
 		
+	}
+	
+	@RequestMapping("/token/logout/{token}")
+	@ResponseBody
+	public TaotaoResult logOutByToken(@PathVariable String token,HttpServletRequest request, HttpServletResponse response) {
+		TaotaoResult taotaoResult=userService.logOutByToken(token);
+		if(taotaoResult.getStatus()==200){		
+				return TaotaoResult.ok();		
+		}
+		return TaotaoResult.build(400, "退出失败");
 	}
 }

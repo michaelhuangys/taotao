@@ -11,6 +11,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
@@ -27,7 +28,7 @@ import com.taotao.sso.service.UserService;
 /**
  * 用户管理Service
  */
-@Service
+@Repository
 public class UserServiceImpl implements UserService {
 
 	private Logger logger=Logger.getLogger(UserServiceImpl.class);
@@ -42,6 +43,8 @@ public class UserServiceImpl implements UserService {
 	@Value("${SSO_SESSION_EXPIRE}")
 	private Integer SSO_SESSION_EXPIRE;
 	
+	@Value("${PORTAL_URL}")
+	public String PORTAL_URL;
 	@Override
 	public TaotaoResult checkData(String content, Integer type) {
 		//创建查询条件
@@ -132,6 +135,19 @@ public class UserServiceImpl implements UserService {
 		jedisClient.expire(REDIS_USER_SESSION_KEY + ":" + token, SSO_SESSION_EXPIRE);
 		//返回用户信息
 		return TaotaoResult.ok(JsonUtils.jsonToPojo(json, TbUser.class));
+	}
+
+	@Override
+	public TaotaoResult logOutByToken(String token) {
+		// TODO Auto-generated method stub
+		jedisClient.expire(REDIS_USER_SESSION_KEY + ":" + token, 0);
+		return TaotaoResult.ok();
+	}
+
+	@Override
+	public String getPortalURL() {
+		// TODO Auto-generated method stub
+		return PORTAL_URL;
 	}
 
 }
