@@ -1745,3 +1745,28 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 2019-05-22 21:33:06,751 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-05-22 21:33:06,752 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-05-22 21:33:06,752 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-22 22:09:49,524 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-22 22:09:49,531 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-05-22 22:09:49,534 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-22 22:09:49,535 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-22 22:09:49,607 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-22 22:09:49,613 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2019-05-22 22:09:49,617 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-22 22:09:49,618 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-22 22:09:50,797 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-22 22:09:50,808 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2019-05-22 22:09:50,816 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-22 22:09:50,816 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hello\Desktop\taotao\taotao-order\src\test\resources
+2019-05-22 22:09:50,922 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-22 22:09:50,929 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-05-22 22:09:50,933 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-22 22:09:50,935 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-22 22:09:51,107 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-22 22:09:51,126 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-05-22 22:09:51,135 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2019-05-22 22:09:51,143 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-22 22:09:51,145 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-22 22:09:51,214 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-22 22:09:51,224 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2019-05-22 22:09:51,229 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-22 22:09:51,229 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hello\Desktop\taotao\taotao-sso\src\test\resources
