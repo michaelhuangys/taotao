@@ -1,11 +1,13 @@
 ﻿ /*
  Date: 2014-01-21 
  */
+var loginURL="http://localhost:8084/page/login";
+var registURL="http://localhost:8084/page/register";
 function login() {
-    return location.href = "http://sso.taotao.com/page/login";
+    return location.href = loginURL;
 }
 function regist() {
-    return location.href = "http://sso.taotao.com/page/register";
+    return location.href = registURL;
 }
 function createCookie(a, b, c, d) {
     var d = d ? d : "/";

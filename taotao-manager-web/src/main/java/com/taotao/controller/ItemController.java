@@ -1,7 +1,6 @@
 package com.taotao.controller;
 
 
-import org.aiav.eidcommon.FuncUtil;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,11 +11,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.alibaba.fastjson.JSON;
+import com.eid.coding.dev.util.FuncUtil;
 import com.taotao.common.pojo.EUDataGridResult;
 import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.pojo.TbItem;
 import com.taotao.pojo.TbItemDesc;
-import com.taotao.pojo.TbItemParam;
 import com.taotao.pojo.TbItemParamItem;
 import com.taotao.service.ItemService;
 
@@ -48,8 +47,8 @@ public class ItemController {
 	@RequestMapping(value="/item/save", method=RequestMethod.POST)
 	@ResponseBody
 	private TaotaoResult createItem(TbItem item, String desc, String itemParams) throws Exception {
-		if(FuncUtil.isEmpty(desc)){
-			System.out.println("none des");
+		if(FuncUtil.isNull(desc)){
+			System.out.println("wrong desc");
 		}
 		TaotaoResult result = itemService.createItem(item, desc, itemParams);
 		return result;
@@ -74,7 +73,7 @@ public class ItemController {
 	@RequestMapping(value="/item/update")
 	@ResponseBody
 	public TaotaoResult updateItem(TbItem item, String desc) {
-		
+		log.debug(JSON.toJSONString(item)+" item update "+desc);
 		TaotaoResult result = itemService.updateItem(item, desc);
 		return result;
 	

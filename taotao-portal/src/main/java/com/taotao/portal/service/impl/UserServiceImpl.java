@@ -1,11 +1,11 @@
 package com.taotao.portal.service.impl;
 
-
-import org.aiav.eidcommon.FuncUtil;
+import org.apache.commons.codec.binary.StringUtils;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import com.eid.coding.dev.util.FuncUtil;
 import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.common.utils.HttpClientUtil;
 import com.taotao.pojo.TbUser;
@@ -17,7 +17,7 @@ import com.taotao.portal.service.UserService;
 @Service
 public class UserServiceImpl implements UserService {
 	
-	private Logger log = Logger.getLogger(UserServiceImpl.class);
+	private Logger logger=Logger.getLogger(this.getClass());
 	@Value("${SSO_BASE_URL}")
 	public String SSO_BASE_URL;
 	@Value("${SSO_DOMAIN_BASE_USRL}")
@@ -33,10 +33,10 @@ public class UserServiceImpl implements UserService {
 		try {
 			//调用sso系统的服务，根据token取用户信息
 			String json = HttpClientUtil.doGet(SSO_BASE_URL + SSO_USER_TOKEN + token);
-			log.debug(SSO_BASE_URL + SSO_USER_TOKEN + token+" ssobase");
+			logger.debug("sso token "+SSO_BASE_URL + SSO_USER_TOKEN + token);
 			//把json转换成TaotaoREsult
 			TaotaoResult result = TaotaoResult.formatToPojo(json, TbUser.class);
-			if(FuncUtil.isEmpty(result)){
+			if(FuncUtil.isNull(result)){
 				return null;
 			}
 			if (result.getStatus() == 200) {

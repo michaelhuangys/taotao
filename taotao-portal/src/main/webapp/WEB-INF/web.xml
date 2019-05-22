@@ -12,6 +12,7 @@
 		<welcome-file>default.htm</welcome-file>
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
+	
 	<!-- 加载spring容器 -->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
@@ -33,6 +34,30 @@
 		<filter-name>CharacterEncodingFilter</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
+	
+	  <servlet>
+    <servlet-name>taotaoLog4jInit</servlet-name>
+    <servlet-class>com.taotao.log.Log4jInit</servlet-class>
+    <init-param>
+      <param-name>taotaoLog4j</param-name>
+      <param-value>WEB-INF/log4j.xml</param-value>
+    </init-param>
+    <init-param>
+      <param-name>taotaoLogRootDir</param-name>
+    <!--   <param-value>/usr/local/jboss/jboss-as-7.1.1.Final-offset-400/standalone/log</param-value> -->
+     <param-value>D:/taotao/logs</param-value>
+    </init-param>
+      <init-param>
+      <param-name>resourceDir</param-name>
+    <!--   <param-value>/usr/local/jboss/jboss-as-7.1.1.Final-offset-400/standalone/log</param-value> -->
+     <param-value>D:/resource</param-value>
+    </init-param>
+    <init-param>
+      <param-name>taotaoVersion</param-name>
+      <param-value>1_0_0_0</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
 	<!-- springmvc的前端控制器 -->
 	<servlet>
 		<servlet-name>taotao-portal</servlet-name>
