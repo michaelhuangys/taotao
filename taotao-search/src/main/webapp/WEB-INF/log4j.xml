@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<!-- appender SYS -->
+	<appender name="codingConsole" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p [%c] %m%n" />
+		</layout>
+	</appender>
+	
+	<appender name="codingFile" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="${taotaoLogRootDir}/${taotaoVersion}/sys/syslog.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd-HH" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p [%c] %m%n" />
+		</layout>
+	</appender>
+	
+    
+	<!-- category SYS -->
+	<category name="com.taotao.controller" additivity="false">
+		<level value="DEBUG" />
+		<appender-ref ref="codingFile" />
+	</category>
+	
+
+	
+	
+	<!-- Root Logger <root> <priority value="debug" /> <appender-ref ref="console" 
+		/> </root> -->
+
+</log4j:configuration>
