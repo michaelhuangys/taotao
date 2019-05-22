@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.databind.jsonFormatVisitors.JsonAnyFormatVisitor"/>
+<fullyQualifiedTypeName name="net.sf.json.JSONString"/>
+<fullyQualifiedTypeName name="net.sf.json.util.JSONUtils"/>
+<fullyQualifiedTypeName name="net.sf.json.util.JSONStringer"/>
+<fullyQualifiedTypeName name="net.sf.json.JSON"/>
+<fullyQualifiedTypeName name="net.sf.json.JSONObject"/>
+<fullyQualifiedTypeName name="org.aiav.eidcommon.FuncUtil"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="com.taotao.portal.service.impl.UserServiceImpl"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+</qualifiedTypeNameHistroy>

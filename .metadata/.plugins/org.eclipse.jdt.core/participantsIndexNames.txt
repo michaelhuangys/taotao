@@ -1,0 +1,15 @@
+INDEX VERSION 1.126
+C:\Users\hello\Desktop\taotao\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2721289618.index
+\taotao-manager-web\src\main\java
+C:\Users\hello\Desktop\taotao\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2346493784.index
+\taotao-portal\src\main\java
+C:\Users\hello\Desktop\taotao\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2913356879.index
+\taotao-portal\src\main\java
+C:\Users\hello\Desktop\taotao\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3383018015.index
+\taotao-portal\src\main\java
+C:\Users\hello\Desktop\taotao\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1661534593.index
+\taotao-manager-web\src\main\java
+C:\Users\hello\Desktop\taotao\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1497872763.index
+\taotao-sso\src\main\java
+C:\Users\hello\Desktop\taotao\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1523683070.index
+\taotao-sso\src\main\java
