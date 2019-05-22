@@ -57,7 +57,7 @@ function clothingAbTest() {
     a && (a.innerHTML = '<a href="http://channel.jd.com/chaoshi.html">\u4eac\u4e1c\u8d85\u5e02</a>')
 }(), "undefined" == typeof pageConfig.FN_getDomain && (pageConfig.FN_getDomain = function() {
     var a = location.hostname;
-    return /360buy.com/.test(a) ? "360buy.com" : "jd.com"
+    return a==null ? "360buy.com" : "jd.com";
 }), function() {
     var a = $("#service-2013 a[href='http://en.360buy.com/']");
     a.length && a.attr("href", "http://help.en.360buy.com/help/question-2.html")
@@ -146,7 +146,7 @@ function clothingAbTest() {
     }
     for (; c--; )
         d[c] && (a = a.replace(new RegExp("\\b" + e(c) + "\\b", "g"), d[c]));
-    return a
+    return a;
 }("(4($){$.R($.7,{3:4(c,b,d){9 e=2,q;5($.O(c))d=b,b=c,c=z;$.h($.3.j,4(i,a){5(e.8==a.8&&e.g==a.g&&c==a.m&&(!b||b.$6==a.7.$6)&&(!d||d.$6==a.o.$6))l(q=a)&&v});q=q||Y $.3(2.8,2.g,c,b,d);q.u=v;$.3.s(q.F);l 2},T:4(c,b,d){9 e=2;5($.O(c))d=b,b=c,c=z;$.h($.3.j,4(i,a){5(e.8==a.8&&e.g==a.g&&(!c||c==a.m)&&(!b||b.$6==a.7.$6)&&(!d||d.$6==a.o.$6)&&!2.u)$.3.y(a.F)});l 2}});$.3=4(e,c,a,b,d){2.8=e;2.g=c||S;2.m=a;2.7=b;2.o=d;2.t=[];2.u=v;2.F=$.3.j.K(2)-1;b.$6=b.$6||$.3.I++;5(d)d.$6=d.$6||$.3.I++;l 2};$.3.p={y:4(){9 b=2;5(2.m)2.t.16(2.m,2.7);E 5(2.o)2.t.h(4(i,a){b.o.x(a)});2.t=[];2.u=Q},s:4(){5(2.u)l;9 b=2;9 c=2.t,w=$(2.8,2.g),H=w.11(c);2.t=w;5(2.m){H.10(2.m,2.7);5(c.C>0)$.h(c,4(i,a){5($.B(a,w)<0)$.Z.P(a,b.m,b.7)})}E{H.h(4(){b.7.x(2)});5(2.o&&c.C>0)$.h(c,4(i,a){5($.B(a,w)<0)b.o.x(a)})}}};$.R($.3,{I:0,j:[],k:[],A:v,D:X,N:4(){5($.3.A&&$.3.k.C){9 a=$.3.k.C;W(a--)$.3.j[$.3.k.V()].s()}},U:4(){$.3.A=v},M:4(){$.3.A=Q;$.3.s()},L:4(){$.h(G,4(i,n){5(!$.7[n])l;9 a=$.7[n];$.7[n]=4(){9 r=a.x(2,G);$.3.s();l r}})},s:4(b){5(b!=z){5($.B(b,$.3.k)<0)$.3.k.K(b)}E $.h($.3.j,4(a){5($.B(a,$.3.k)<0)$.3.k.K(a)});5($.3.D)1j($.3.D);$.3.D=1i($.3.N,1h)},y:4(b){5(b!=z)$.3.j[b].y();E $.h($.3.j,4(a){$.3.j[a].y()})}});$.3.L('1g','1f','1e','1b','1a','19','18','17','1c','15','1d','P');$(4(){$.3.M()});9 f=$.p.J;$.p.J=4(a,c){9 r=f.x(2,G);5(a&&a.8)r.g=a.g,r.8=a.8;5(14 a=='13')r.g=c||S,r.8=a;l r};$.p.J.p=$.p})(12);", 62, 82, "||this|livequery|function|if|lqguid|fn|selector|var|||||||context|each||queries|queue|return|type||fn2|prototype|||run|elements|stopped|false|els|apply|stop|undefined|running|inArray|length|timeout|else|id|arguments|nEls|guid|init|push|registerPlugin|play|checkQueue|isFunction|remove|true|extend|document|expire|pause|shift|while|null|new|event|bind|not|jQuery|string|typeof|toggleClass|unbind|addClass|removeAttr|attr|wrap|before|removeClass|empty|after|prepend|append|20|setTimeout|clearTimeout".split("|"), 0, {})), new function(a) {
     var b = a.separator || "&", c = a.spaces === !1 ? !1 : !0, d = (a.suffix === !1 ? "" : "[]", a.prefix === !1 ? !1 : !0), e = d ? a.hash === !0 ? "#" : "?" : "", f = a.numbers === !1 ? !1 : !0;
     jQuery.query = new function() {
@@ -1175,6 +1175,7 @@ var category = {OBJ: $("#_JD_ALLSORT"),
 		//URL_Serv: "http://localhost:8082/category.json",
 		URL_BrandsServ: "http://d.360buy.com/brandVclist2/get?callback=category.getBrandService&ids=a,9211,9212^b,9214,9215^c,9217,9218^d,9220,9221^e,9223,9224^f,9226,9227^g,9229,9230^h,9232,9233^m,9235,9236^i,9238,9239^j,9241,9242^p,9244,9245^k,9247,9248^l,9250,9251",
 		FN_GetLink: function(a, b) {
+			
 	        var c, d;
 	        switch (a) {
 	            case 1:
@@ -1183,7 +1184,11 @@ var category = {OBJ: $("#_JD_ALLSORT"),
 	            case 2:
 	                c = b.split("|")[0], d = b.split("|")[1]
 	        }
-        return "" == c ? d : (/^http[s]?:\/\/([\w-]+\.)+[\w-]+([\w-.\/?%&=]*)?$/.test(c) || (c = c.replace(/-000$/, ""), c = c.match(/^\d*-\d*$/) ? "http://channel.jd.com/" + c + ".html" : "http://www.taotao.com" + c + ".html"), '<a href="' + c + '">' + d + "</a>")
+	       // console.log(c+" "+d)
+	
+        var res="" == c ? d : (/^http[s]?:\/\/([\w-]+\.)+[\w-]+([\w-.\/?%&=]*)?$/.test(c) || (c = c.replace(/-000$/, ""), c = c.match(/^\d*-\d*$/) ? "http://channel.jd.com/" + c + ".html" : "http://localhost:8082/search.html?q=" + d), '<a href="' + c + '">' + d + "</a>")
+       // console.log(res)
+        return  res;
     },FN_SetLink: function(a) {
         var b = "", c = pageConfig.isHome ? 'clstag="homepage|keycount|home2013|0604e"' : "", d = pageConfig.isHome ? 'clstag="homepage|keycount|home2013|0603e"' : "", e = pageConfig.isHome ? 'clstag="homepage|keycount|home2013|0605e"' : "";
         switch (a) {

@@ -1,7 +1,7 @@
-C:\Users\hello\Desktop\taotao\taotao-order\src\main\java\com\taotao\order\service\impl\OrderServiceImpl.java
-C:\Users\hello\Desktop\taotao\taotao-order\src\main\java\com\taotao\order\controller\OrderController.java
-C:\Users\hello\Desktop\taotao\taotao-order\src\main\java\com\taotao\order\dao\JedisClient.java
-C:\Users\hello\Desktop\taotao\taotao-order\src\main\java\com\taotao\order\dao\impl\JedisClientSingle.java
-C:\Users\hello\Desktop\taotao\taotao-order\src\main\java\com\taotao\order\service\OrderService.java
-C:\Users\hello\Desktop\taotao\taotao-order\src\main\java\com\taotao\order\dao\impl\JedisClientCluster.java
-C:\Users\hello\Desktop\taotao\taotao-order\src\main\java\com\taotao\order\pojo\Order.java
+C:\Users\eid\WebstormProjects\taotao\taotao-order\src\main\java\com\taotao\order\dao\impl\JedisClientCluster.java
+C:\Users\eid\WebstormProjects\taotao\taotao-order\src\main\java\com\taotao\order\service\OrderService.java
+C:\Users\eid\WebstormProjects\taotao\taotao-order\src\main\java\com\taotao\order\service\impl\OrderServiceImpl.java
+C:\Users\eid\WebstormProjects\taotao\taotao-order\src\main\java\com\taotao\order\pojo\Order.java
+C:\Users\eid\WebstormProjects\taotao\taotao-order\src\main\java\com\taotao\order\dao\JedisClient.java
+C:\Users\eid\WebstormProjects\taotao\taotao-order\src\main\java\com\taotao\order\dao\impl\JedisClientSingle.java
+C:\Users\eid\WebstormProjects\taotao\taotao-order\src\main\java\com\taotao\order\controller\OrderController.java

@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -29,6 +30,7 @@ import com.taotao.sso.service.UserService;
 @Service
 public class UserServiceImpl implements UserService {
 
+	private Logger logger=Logger.getLogger(UserServiceImpl.class);
 	@Autowired
 	private TbUserMapper userMapper;
 	
@@ -105,6 +107,7 @@ public class UserServiceImpl implements UserService {
 		//set password null
 		user.setPassword(null);
 		//save user into reids
+		logger.debug("[debug]: login user: "+JsonUtils.objectToJson(user));
 		jedisClient.set(REDIS_USER_SESSION_KEY + ":" + token, JsonUtils.objectToJson(user));
 		//set session expire time
 		jedisClient.expire(REDIS_USER_SESSION_KEY + ":" + token, SSO_SESSION_EXPIRE);
