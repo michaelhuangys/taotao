@@ -2,6 +2,8 @@
 <%@ page trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%> 
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
    <meta http-equiv="pragma" content="no-cache">
@@ -13,9 +15,26 @@
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
    <link rel="stylesheet" href="/css/base.css">
    <link href="/css/purchase.2012.css?v=201410141639" rel="stylesheet" type="text/css">
+   <script type="text/javascript" src="/js/jquery-1.6.4.js"></script>
    <title>我的购物车 - 淘淘商城</title>
    <script>
    	var pageConfig  = {};
+   	$(function(){
+   		var num=0;
+   		<c:forEach items="${cartList}" var="cart">  
+   	     num+=${cart.num};
+	   </c:forEach>
+  	   	document.getElementById("selectedCount").innerText=num;
+   	})
+   	
+   	function orderCart(){
+   		var url="/order/order-cart.html";
+   		if(	document.getElementById("selectedCount").innerText==0){
+             alert("请添加商品");
+   	   	}else{
+            window.location.href=url;
+   	   	}
+    }
    </script>
 <body> 
 <!--shortcut start-->
@@ -46,7 +65,7 @@
     <div class="cart-thead clearfix">
         <div class="column t-checkbox form"><input data-cart="toggle-cb" name="toggle-checkboxes" id="toggle-checkboxes_up" type="checkbox" checked="" value=""><label for="toggle-checkboxes_up">全选</label></div>
         <div class="column t-goods">商品</div>
-        <div class="column t-price">淘淘价</div>
+        <div class="column t-price">价格</div>
         <div class="column t-promotion">优惠</div>
         <div class="column t-inventory">库存</div>
         <div class="column t-quantity">数量</div>
@@ -78,7 +97,7 @@
 		            <div class="cell p-quantity" for-stock="for-stock-11345721">
 		                <div class="quantity-form" data-bind="">
 		                    <a href="javascript:void(0);" class="decrement" clstag="clickcart|keycount|xincart|diminish1" id="decrement">-</a>
-		                    <input type="text" class="quantity-text" itemPrice="${cart.price}" itemId="${cart.id}" value="${cart.num }" id="changeQuantity-11345721-1-1-0">
+		                    <input type="text" class="quantity-text" itemPrice="${cart.price}" itemId="${cart.id}" value="${cart.num}" id="changeQuantity-11345721-1-1-0">
 		                    <a href="javascript:void(0);" class="increment" clstag="clickcart|keycount|xincart|add1" id="increment">+</a>
 		                </div>
 		            </div>
@@ -94,7 +113,7 @@
                 <p><span class="totalSkuPrice">¥<fmt:formatNumber value="${totalPrice / 100}" maxFractionDigits="2" minFractionDigits="2" groupingUsed="true"/></span>总计：</p>
                 <p><span id="totalRePrice">- ¥0.00</span>优惠：</p>
             </div>
-            <div class="amout fr"><span id="selectedCount">1</span> 件商品</div>
+            <div class="amout fr"><span id="selectedCount"></span> 件商品</div>
         </div>
         <div class="ui-ceilinglamp-1" style="width: 988px; height: 49px;"><div class="cart-dibu ui-ceilinglamp-current" style="width: 988px; height: 49px;">
           <div class="control fdibu fdibucurrent">
@@ -120,7 +139,7 @@
           <div class="cart-total-2014">
               <div class="cart-button">
                   <span class="check-comm-btns" id="checkout-jd">
-                      <a class="checkout" href="/order/order-cart.html" clstag="clickcart|keycount|xincart|gotoOrderInfo" id="toSettlement">去结算<b></b></a>
+                      <a class="checkout" href="#" clstag="clickcart|keycount|xincart|gotoOrderInfo" id="toSettlement" onclick="orderCart()">去结算<b></b></a>
                   </span>
                   <span class="combine-btns" style="display:none">
                         <span class="fore1" style="display: none;">

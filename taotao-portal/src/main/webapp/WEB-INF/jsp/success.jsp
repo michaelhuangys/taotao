@@ -21,6 +21,26 @@
    <script type="text/javascript" src="/js/base-2011.js" charset="utf-8"></script>
    <script type="text/javascript" src="/js/jquery.cookie.js" charset="utf-8"></script>
    <script type="text/javascript" src="/js/taotao.js" charset="utf-8"></script>
+   <script type="text/javascript" charset="utf-8">
+	   $(function(){ 
+		   var state = { 
+				   title: "title", 
+				   url: "#"
+				   }
+		   window.addEventListener("popstate", function(e) { 
+			    if(confirm("请回到主页面")){
+			    	window.open("localhost:8082");
+			    	window.close();
+				 }		        
+		   }, false); 
+ 
+		   window.history.pushState('forward', null, '#'); //在IE中必须得有这两行
+		   window.history.forward(1);
+	     
+	   })
+	
+   </script>
+
 </head> <body id="mainframe">
 <!--shortcut start-->
 <jsp:include page="commons/shortcut.jsp" />

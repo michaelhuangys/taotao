@@ -30,10 +30,14 @@ var TTCart = {
 	},
 	refreshTotalPrice : function(){ //重新计算总价
 		var total = 0;
+		var totalNum=0;
 		$(".quantity-form .quantity-text").each(function(i,e){
 			var _this = $(e);
 			total += (eval(_this.attr("itemPrice")) * 10000 * eval(_this.val())) / 10000;
+			totalNum+=eval(_this.val());
 		});
+		console.log(totalNum)
+		document.getElementById("selectedCount").innerText=totalNum;
 		$(".totalSkuPrice").html(new Number(total/100).toFixed(2)).priceFormat({ //价格格式化插件
 			 prefix: '￥',
 			 thousandsSeparator: ',',

@@ -2,6 +2,7 @@
 <%@ page trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
@@ -23,7 +24,15 @@
 </head>	<body id="mainframe">
 <jsp:include page="commons/shortcut.jsp" />
 <!--shortcut end-->
-
+<script  type="text/javascript">
+/*    $(function(){
+	   console.log(${fn:length(list)}+" cart")
+     if(${fn:length(list)}==0){
+         console.log(123)
+        window.location.href="locahost:8082";
+     }
+  }) */
+</script>
 <div class="w w1 header clearfix">
     <div id="logo"><a href="/"><img src="/images/taotao-logo.gif" alt="淘淘商城"></a></div>
 </div>
